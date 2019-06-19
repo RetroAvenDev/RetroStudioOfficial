@@ -3,34 +3,35 @@
 <head>
 <meta charset="UTF-8">
 <link rel="icon" href="src/logo.png">
-<title>Retro Studio Official</title>
+<title>Redirecting....</title>
 </head>
 <body>
-<center>
-<link rel="stylesheet" href="src/button.css">
-<Img src="src/rso.png">
-<style>
-body {
-background-image: url("src/rsoBACKGROUND.png");
-background-position: 10% 30%;
-background-repeat: no-repeat;
-}
-</style>
-<br />
-<a href="https://www.castingcall.club/projects/retro-studio-va-staff-minecraft-roleplay-company">
-<button class="ccc">Casting Call Club</button>
-<a href="https://www.paypal.me/RetroDevAvan">
-<button class="ccc">Support Us (PayPal)</button>
-</a>
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<h1>Founder/Creator Of Website</h1>
-<Img src="src/logo.png">
+<h3>
+  <center>Redirecting To Home Page</center>
+<span id="countdown">6</span> seconds
+</h3>
+<script type="text/javascript">
+    
+    // Total seconds to wait
+    var seconds = 6;
+    
+    function countdown() {
+        seconds = seconds - 1;
+        if (seconds < 0) {
+            window.location = "https://retroavendev.github.io/RetroStudioOfficial/home";
+        } else {
+            document.getElementById("countdown").innerHTML = seconds;
+ 
+            window.setTimeout("countdown()", 1000);
+        }
+    }
+    
+    // Run countdown function
+    countdown();
+    
+</script>
 
-</center>
 </body>
 </html>
+
+
