@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="icon" href="src/logo.png">
+<title>Home</title>
+</head>
+<body>
+<center>
+
+<link rel="stylesheet" href="src/css/button.css">
+<Img src="src/rso.png">
+<style>
+body {
+background-image: url("src/rsoBACKGROUND.png");
+background-position: 10% 30%;
+background-repeat: no-repeat;
+}
+</style>
+<br />
+<a href="https://www.castingcall.club/projects/retro-studio-va-staff-minecraft-roleplay-company" " target="_blank"><button class="ccc">Casting Call Club</button></a>+
+<br />
+<br />
+<a href="https://retroavendev.github.io/RetroStudioOfficial/staff">
+<button class=ccc>Staff List</button></a>
+<br />
+<br />
+<a href="https://www.paypal.me/RetroDevAvan" " target="_blank"><button class="ccc">Support Us (PayPal)</button></a>
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+</center>
+</body>
+</html>
