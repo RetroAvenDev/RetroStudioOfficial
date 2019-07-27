@@ -1,5 +1,7 @@
 body { 
-    border: none;
-    background: url('lgbtq.png') no-repeat top left;
-    padding: 2px 8px;
+  background-image: url('image/lgbtq.png');
+  width : 45px;
+  height : 45px;
+  border-style: none;
+  background-repeat: no-repeat;
 }
